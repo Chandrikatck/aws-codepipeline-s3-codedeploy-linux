@@ -20,7 +20,7 @@ pipeline{
 	}
 	stage('deploy'){
               steps{
-                sh 'mv php/* ../../../../www/html'
+                sh 'mv aws-codepipeline-s3-codedeploy-linux/* ../../../../www/html'
 	      }
 	}
      
